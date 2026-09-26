@@ -40,3 +40,6 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   `,
 })
 export class App {}
+
+// Throwaway: deliberate lint error to verify CI fails. Do not merge.
+export const ciCheck: any = 1;
