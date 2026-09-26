@@ -18,6 +18,7 @@
 **Acceptance**
 
 - [ ] Claude Code in this repo loads both skills, the `angular-cli` MCP server, and the best practices via `CLAUDE.md`.
-- [ ] Push to `main` deploys to the production URL; PRs get preview URLs.
-- [ ] Deep links (e.g. `/w/abc`) load on refresh.
-- [ ] CI fails on lint/test/build errors.
+- [x] Push to `main` deploys to the production URL (https://microbit-workshops.vercel.app).
+- [x] PRs get preview URLs (verified with throwaway PR #1).
+- [x] Deep links (e.g. `/w/abc`) load on refresh.
+- [x] CI fails on lint/test/build errors (PR #1 failed at the lint step).

@@ -20,4 +20,6 @@ npm run build          # production build → dist/microbit-workshops/browser
 
 ## Deployment
 
+Production: https://microbit-workshops.vercel.app
+
 Vercel builds `main` to production and every PR to a preview URL (config in [vercel.json](vercel.json)). CI in [.github/workflows/ci.yml](.github/workflows/ci.yml) runs lint, format check, tests and build.
